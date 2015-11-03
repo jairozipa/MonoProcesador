@@ -6,6 +6,10 @@ package logic;
 
 public class Process {
 
+/*
+ * Atributos de la clase logic
+ */
+
 	private int id;
 	private String name;
 	private int time; //In seconds 
@@ -14,7 +18,9 @@ public class Process {
 	private int blockedTime;
 	private int blockedDuration;
 	private Thread th;
-	
+/*
+ * Constructor publico de la clase Process
+ */	
 	public Process(int id, String name,  int time) {
 		this.id=id;
 		this.name=name;
